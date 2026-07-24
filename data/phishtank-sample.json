@@ -1,0 +1,32 @@
+[
+  {
+    "phish_id": "8675309",
+    "url": "https://yourcompany-hr-bonus.com/claim",
+    "phish_detail_url": "https://www.phishtank.org/phish_detail.php?phish_id=8675309",
+    "submission_time": "2024-06-01T12:00:00+00:00",
+    "verified": "yes",
+    "verification_time": "2024-06-01T13:00:00+00:00",
+    "online": "yes",
+    "target": "Generic Corporate"
+  },
+  {
+    "phish_id": "1234567",
+    "url": "http://secure-appleid-verify.com/login",
+    "phish_detail_url": "https://www.phishtank.org/phish_detail.php?phish_id=1234567",
+    "submission_time": "2024-05-15T08:30:00+00:00",
+    "verified": "yes",
+    "verification_time": "2024-05-15T09:00:00+00:00",
+    "online": "yes",
+    "target": "Apple"
+  },
+  {
+    "phish_id": "9998887",
+    "url": "https://paypa1-secure-login.net/account/verify",
+    "phish_detail_url": "https://www.phishtank.org/phish_detail.php?phish_id=9998887",
+    "submission_time": "2024-04-20T16:45:00+00:00",
+    "verified": "yes",
+    "verification_time": "2024-04-20T17:00:00+00:00",
+    "online": "no",
+    "target": "PayPal"
+  }
+]
