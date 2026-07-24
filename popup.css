@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PhishGuard</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="../icons/icon-48.png" alt="" class="header-icon" />
+    <div>
+      <h1>PhishGuard</h1>
+      <p class="tagline">Is this link really from your company?</p>
+    </div>
+  </header>
+
+  <section id="settings-section" class="card">
+    <h2>Your company domain</h2>
+    <p class="hint">Set this once — every link check compares against it.</p>
+    <div class="input-row">
+      <input type="text" id="company-domain-input" placeholder="e.g. yourcompany.com" />
+      <button id="save-domain-btn">Save</button>
+    </div>
+    <p id="settings-saved-msg" class="saved-msg hidden">✓ Saved</p>
+  </section>
+
+  <section id="manual-check-section" class="card">
+    <h2>Check a link</h2>
+    <p class="hint">Paste a link (e.g. from WhatsApp or SMS) to check it manually.</p>
+    <div class="input-row">
+      <input type="text" id="manual-url-input" placeholder="https://..." />
+      <button id="manual-check-btn">Check</button>
+    </div>
+  </section>
+
+  <section id="result-section" class="card">
+    <h2>Last checked link</h2>
+    <div id="result-content">
+      <p class="hint">Right-click any link and choose "Check with PhishGuard", or paste one above.</p>
+    </div>
+  </section>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
